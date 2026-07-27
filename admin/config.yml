@@ -1,0 +1,34 @@
+backend:
+  name: github
+  repo: YOUR-GITHUB-USERNAME/YOUR-REPOSITORY-NAME
+  branch: main
+
+
+media_folder: "assets/images"
+public_folder: "/assets/images"
+
+
+collections:
+
+  - name: "portfolio"
+    label: "Portfolio Pages"
+    folder: "content/portfolio"
+    create: true
+    slug: "{{slug}}"
+
+    fields:
+
+      - label: "Title"
+        name: "title"
+        widget: "string"
+
+
+      - label: "Summary"
+        name: "summary"
+        widget: "text"
+
+
+      - label: "Content"
+        name: "body"
+        widget: "markdown"
+        
