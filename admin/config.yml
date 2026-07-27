@@ -2,8 +2,8 @@ backend:
   name: github
   repo: IngridTheGreat/IngridTheGreat2026
   branch: main
+  
 publish_mode: editorial_workflow
-
 media_folder: "assets/images"
 public_folder: "/assets/images"
 
